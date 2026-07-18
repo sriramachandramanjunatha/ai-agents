@@ -1,5 +1,44 @@
 # Digital Twin
 
+## 🧠 Overview
+A conversational AI-powered **Digital Twin** that represents your professional identity — acting as your virtual elevator pitch, available 24/7. It answers questions about your background, experience, skills, projects, and contact information on your behalf.
+
+## 🏗️ Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| **LLM** | [Ollama](https://ollama.com/) (Local LLM inference) |
+| **Tool Calling** | Function-based tool calls for dynamic responses (e.g., email lookup, contact info) |
+| **Framework** | Python |
+| **Package Manager** | [uv](https://github.com/astral-sh/uv) |
+
+## ⚙️ How It Works
+
+1. **Knowledge Base** — The twin is grounded with a structured profile containing career history, skills, education, and contact details.
+2. **Ollama LLM** — Runs locally to generate natural language responses based on the knowledge base.
+3. **Tool Functions** — Custom functions are registered as tools that the LLM can invoke:
+   - `get_contact_info()` — Returns email and LinkedIn details
+   - `send_email()` — Captures visitor messages for follow-up
+4. **Guardrails** — Out-of-scope questions (e.g., weather) are gracefully handled, redirecting the user back to career-related topics.
+
+## 🚀 Getting Started
+
+```bash
+# Install Ollama
+brew install ollama
+
+# Pull a model
+ollama pull llama3
+
+# Install dependencies
+uv sync
+
+# Run the Digital Twin
+uv run app.py
+```
+
+## 💬 Demo
+
 ## Elevator Pitch
 
 ### 🏠 Home
