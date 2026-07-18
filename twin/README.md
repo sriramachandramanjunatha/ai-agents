@@ -17,8 +17,8 @@ A conversational AI-powered **Digital Twin** that represents your professional i
 1. **Knowledge Base** — The twin is grounded with a structured profile containing career history, skills, education, and contact details.
 2. **Ollama LLM** — Runs locally to generate natural language responses based on the knowledge base.
 3. **Tool Functions** — Custom functions are registered as tools that the LLM can invoke:
-   - `get_contact_info()` — Returns email and LinkedIn details
-   - `send_email()` — Captures visitor messages for follow-up
+   - `record_user_details(email, name, notes)` — Records a user's contact info (email, name, notes) for follow-up
+   - `record_unknown_question(question)` — Logs any question the twin couldn't answer for later review
 4. **Guardrails** — Out-of-scope questions (e.g., weather) are gracefully handled, redirecting the user back to career-related topics.
 
 ## 🚀 Getting Started
