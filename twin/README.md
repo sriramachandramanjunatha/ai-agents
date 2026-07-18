@@ -35,6 +35,7 @@ uv sync
 
 # Run the Digital Twin
 uv run app.py
+* Running on local URL:  http://127.0.0.1:7860
 ```
 
 ## 💬 Demo
