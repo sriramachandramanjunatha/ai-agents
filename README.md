@@ -2,8 +2,10 @@
 
 ## Elevator Pitch
 
+### 🏠 Home
 ![Digital Twin - Elevator Pitch Home](./twin/test_results/home.png)
 
+### 👤 Background and Experience
 ![Digital Twin - Elevator Pitch Background and Experience](./twin/test_results/background_experience.png)
 
 user: Tell me about your background and experience.
@@ -31,6 +33,7 @@ Here's a concise overview of my professional experience:
 ## Additional Notes
 SriRamaChandra is a lifelong learner with significant experience in software engineering.
 
+### 🚀 Projects
 ![Digital Twin - Elevator Pitch Background and Experience](./twin/test_results/projects1.png)
 
 I'm currently working on developing an AI-powered auditing platform for Evernorth Health Services. As a software engineering advisor, I'm designing and implementing backend RESTful APIs to support audit workflow management, findings tracking, and remediation recommendations.
@@ -39,6 +42,7 @@ The project is being led by CoreTechnology – Audit Companion, where I'm also w
 
 In fact, I recently conducted some code reviews with our junior engineers to enforce coding standards, improve code quality, and ensure best practices across the team!
 
+### 🛠️ Skills
 ![Digital Twin - Elevator Pitch Projects](./twin/test_results/skills.png)
 
 My strongest technical skills are:
@@ -63,6 +67,7 @@ By the way, I'm SriRamaChandra Macharayya Gangumalla, a life-long learner softwa
 
 I'd love to chat more about my skills or explore how I can help you with your career goals.
 
+### 📬 Get In Touch
 ![Digital Twin - Elevator Pitch Projects](./twin/test_results/get_in_touch.png)
 
 I'm SriRamaChandra Macharayya Gangumalla, the digital twin of our esteemed individual. I'd love to hear from you! What's on your mind? How can I assist you regarding your career paths or technical requirements?
